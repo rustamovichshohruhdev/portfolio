@@ -1,0 +1,291 @@
+/* normalize */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ------------------- */
+
+/* create container */
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin-inline: auto;
+    padding-inline: 24px;
+}
+
+/* create header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 26px;
+}
+
+.header__logo {
+    width: 186px;
+    height: 40px;
+}
+.header__logo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+nav a {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    color: blue;
+    transition: 0.6s;
+}
+
+nav a:hover {
+    color: black;
+}
+.btn {
+    padding: 19px 31px;
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    border-radius: 6px;
+    transition: 0.56s;
+}
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* intro section */
+.intro {
+    background-color: #f5fcff;
+}
+
+.intro__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 134px;
+}
+
+.intro__img {
+    width: 917px;
+    height: 730px;
+}
+.intro__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro__info h4 {
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.intro__info h1 {
+    max-width: 800px;
+    font-size: 74.23px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 21.33px;
+}
+.intro__info span {
+    color: blue;
+}
+
+.intro__info p {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    max-width: 620px;
+    margin-bottom: 32px;
+}
+
+.btn-outline {
+    padding: 18px 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+    border: none;
+}
+
+/* skills section start */
+
+.skills {
+    margin-block: 150px;
+}
+
+.skills h4 {
+    font-size: 21.33px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    line-height: 150%;
+    margin-bottom: 21.33px;
+}
+
+.skills__title {
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 106px;
+}
+
+.card__img {
+    width: 80px;
+    height: 80px;
+}
+.card__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card h1 {
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin-block: 32px 21.33px;
+}
+.card p {
+    font-family: "Roboto", sans-serif;
+    font-size: 21.33px;
+    line-height: 150%;
+    max-width: 341px;
+}
+
+.card {
+    background-color: #f5fcff;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* about section start */
+
+.about {
+    margin-block: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__img {
+    width: 813px;
+    height: 996px;
+}
+.about__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about__info h4 {
+    font-size: 21.33px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    line-height: 150%;
+}
+.about__info h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 120%;
+    margin-block: 10px 32px;
+}
+.about__info p {
+    max-width: 801px;
+    font-size: 24px;
+    line-height: 150%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* portfolio section */
+
+.portfolio {
+    margin-block: 74px 150px;
+}
+
+.portfolio__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio__info h4 {
+    font-size: 21.33px;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 21.33px;
+}
+.portfolio__info h1 {
+    font-size: 64px;
+    line-height: 120%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.portfolio__btn {
+    display: flex;
+    align-items: center;
+    padding: 21.33px;
+    gap: 16px;
+    border: none;
+    background-color: #e62872;
+    border-radius: 11px;
+    color: white;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 106px;
+}
+
+.all__img {
+    width: 534px;
+    height: 400px;
+}
+.all__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.all__card h1 {
+    margin-block: 32px 10px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 140%;
+}
